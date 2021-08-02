@@ -30,8 +30,9 @@ from import 相当于深拷贝，相当于完全复制了一份内存地址
 import 相当于浅拷贝，引用了模块的地址
 """
 
-
 import gift
+
+
 def send_gift():
     # global have_gift
     choice = input("请选择是否发礼物 “是” 或者 “否”：")
