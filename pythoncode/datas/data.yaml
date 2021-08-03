@@ -1,0 +1,17 @@
+#- a
+#- b
+#- c
+#-
+#  - a
+#  - b
+#  - c
+age: '20'
+gender: male
+name: hogwt
+companies:
+  -
+    id: 1
+    name: company1
+  -
+    id: 2
+    name: company2
