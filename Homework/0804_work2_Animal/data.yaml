@@ -1,0 +1,29 @@
+choose1: &test1
+  cat:
+    name: 小猫1号
+    color: 黄色
+    age: 2
+    gender: 雌性
+    hair: 短毛
+  dog:
+    name: 小狗1号
+    color: 白色
+    age: 5
+    gender: 雄性
+    hair: 长毛
+choose2: &test2
+  cat:
+    name: 小猫2号
+    color: 棕色
+    age: 0.5
+    gender: 雌性
+    hair: 短毛
+  dog:
+    name: 小狗2号
+    color: 黑色
+    age: 5.5
+    gender: 雌性
+    hair: 长毛
+
+default:
+  <<: *test2
